@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../fonts/WorkSans-VariableFont_wght.ttf')  format('truetype'),
+         url('../fonts/WorkSans-Italic-VariableFont_wght.ttf')  format('truetype')
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'WorkSans';
+  }
+header{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title h2{
+    font-size: 35px;
+}
+.img{
+    margin-top: 35px;
+    width: 8%;
+    height: 18%;
+}
+.img img{
+    border-radius: 50%;
+    width: 85%;
+    height: 75%;
+    border: none;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+}
+.user,.pass {
+    width: 300px;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+    border-bottom: 1px solid #E7E7E7;
+  }
+.user::placeholder,.pass::placeholder{
+      font-family: 'WorkSans';
+      font-weight: bold;
+  }
+.btn{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.btn button{  
+    border-radius: 20px;
+    font-size: 25px;
+    color: white;
+    width: 285px;
+    height: 42px;
+    border: none;
+    background-color:#6FB554;
+    }
+.btn button:hover{
+    background-color:#51ad2c; 
+}    
+.ul-list{
+    font-size: 10pt;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 10%;
+    margin-top: 7%;
+}
+.list{
+    margin: 10px 0;
+    color: #c8c8c8;
+}
+.list a{
+    color: #6cb170;
+}

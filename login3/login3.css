@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../fonts/WorkSans-VariableFont_wght.ttf')  format('truetype'),
+         url('../fonts/WorkSans-Italic-VariableFont_wght.ttf')  format('truetype')
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'WorkSans';
+  }
+html,body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./login3.jpg");
+  background-size: cover;
+  /*background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-tap-highlight-color: transparent;
+  z-index: 1;*/
+} 
+.main-box{
+  width: 450px;
+  height:85%;
+  background: -webkit-linear-gradient(top, #7579ff, #b224ef);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+ /* justify-content: space-between;*/
+  align-items: center;
+}
+.header{
+  width: 100%;
+  height:33.333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-container{
+  background-color: #fff;
+  width: 25%;
+  height:55%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img{
+  width: 90px;
+  height: 120px;
+  border: none;
+}
+.login-text{
+  margin-top:6% ;
+  color:#fff;
+  font-size: xx-large;
+}
+.form{
+  width: 100%;
+  height: 33.333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.username-input{
+  margin-bottom: 13%;
+}
+input{
+  width: 390px;
+  height: 45px;
+  background: transparent;  
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #E7E7E7;
+  margin-left: 7px;
+  font-size: large;
+}
+input::placeholder{
+  color:#fff;
+}
+input:focus{
+  color:#fff;
+}
+i{
+   margin-top: 13.5px;
+}
+.checkbox-span{
+  height: 11px;
+  display: inline;
+  font-size: 10pt;
+  margin-top: 8%;
+  margin-right:60%;
+  color:#fff;
+}
+.checkbox{
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.button{
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #000;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+a:hover{
+  color:#000;
+}
+.button:hover{
+  background-color: #000;
+  color: #fff;
+}
